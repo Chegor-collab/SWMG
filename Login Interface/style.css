@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+#titulo{
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 41, 116);
+    padding: 2rem;
+    margin: 0;
+}
+
+/*Login Block*/
+#loginI{
+    background-color: rgb(238, 238, 238);
+    border-radius: .5rem;
+    margin: 1rem auto;
+    padding: .5rem;
+    width: 16rem;
+}
+
+/*Inicio de sesión*/
+#subtitle{
+    margin-top: -.5rem;
+}
+
+.userPass{
+    display: grid;
+    text-align: center;
+    margin: 1rem;
+}
+
+.span1{
+    padding: .25rem;
+}
+
+#loginButton{
+    text-align: center;
+}
+
+.button{
+    border-radius: .25rem;
+    border: 0;
+    color: white;
+    background-color: rgb(0, 83, 236);
+    padding: .5rem;
+}
