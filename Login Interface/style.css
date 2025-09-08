@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 
-#titulo{
+#titleMSWB{
     text-align: center;
     color: white;
     background-color: rgb(0, 41, 116);
@@ -11,37 +11,46 @@ body{
 }
 
 /*Login Block*/
-#loginI{
+    #loginI{
     background-color: rgb(238, 238, 238);
     border-radius: .5rem;
     margin: 1rem auto;
     padding: .5rem;
     width: 16rem;
-}
+    }
 
-/*Inicio de sesión*/
-#subtitle{
+/*Subtitle Login*/
+    #subtitle{
     margin-top: -.5rem;
-}
+    }
 
-.userPass{
+    .userPass{
     display: grid;
     text-align: center;
     margin: 1rem;
-}
+    }
 
-.span1{
+    .span1{
     padding: .25rem;
-}
+    }
 
-#loginButton{
+/*Login and Register Buttons*/
+    .loReButtons{
     text-align: center;
-}
+    }
 
-.button{
+    .button{
     border-radius: .25rem;
     border: 0;
     color: white;
     background-color: rgb(0, 83, 236);
     padding: .5rem;
-}
+    }
+
+    .button1{
+    border-radius: .25rem;
+    border: 0;
+    color: white;
+    background-color: rgb(0, 131, 22);
+    padding: .5rem;
+    }
